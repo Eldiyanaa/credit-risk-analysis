@@ -4,13 +4,9 @@
 
 This project focuses on building a Credit Scoring Model to assess and classify users into different risk categories (high risk or low risk) based on their likelihood of defaulting on a loan. This is a challenge project for 10 Academy Week 6, which involves data exploration, feature engineering, model development, and deploying a machine learning model as an API.
 
----
-
 ## Problem Statement
 
 Bati Bank, a leading financial service provider, is partnering with an eCommerce company to offer a buy-now-pay-later service. The goal is to create a **Credit Scoring Model** that predicts a customer's risk of default and assigns credit scores to potential borrowers.
-
----
 
 ## Objectives
 
@@ -19,8 +15,6 @@ Bati Bank, a leading financial service provider, is partnering with an eCommerce
 3. Develop a model that assigns risk probability to new customers.
 4. Predict the optimal loan amount and duration based on the customer’s risk.
 5. Deploy the trained machine learning model via a REST API for real-time predictions.
-
----
 
 ## Dataset
 
@@ -31,8 +25,6 @@ The dataset used for this project contains transaction data from the eCommerce p
 - `ProductCategory`
 - `TransactionStartTime`
 - `FraudResult`
-
----
 
 ## Tasks
 
@@ -63,8 +55,6 @@ The dataset used for this project contains transaction data from the eCommerce p
 - Develop a REST API using Flask or FastAPI to serve the trained models for real-time predictions.
 - Deploy the API for public use.
 
----
-
 ## Skills and Tools
 
 - **Python Packages**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
@@ -72,19 +62,18 @@ The dataset used for this project contains transaction data from the eCommerce p
 - **CI/CD**: GitHub Actions
 - **MLOps**: MLFlow, Model Management, API Deployment with Flask/FastAPI
 
----
-
 ## Usage
 
 1. Clone this repository:
    ```bash
    git clone git@github.com:Eldiyanaa/credit-risk-analysis.git
+   ```
 2. Install dependencies:
-  ```bash
-   pip install -r requirements.txt
+   ```bash
+    pip install -r requirements.txt
 3. Run the model training script:
-  ```bash
-   python src/train_model.py
+   ```bash
+    python src/train_model.py
 4. Serve the model using Flask:
-  ```bash
+   ```bash
    python src/app.py
